@@ -12,8 +12,11 @@ public class GlobalVars {
 	public static String reportsDirEnv;
 	public static String reportsDirDevice;
 	
-	//*****************************************Models*************************************//
+	//*****************************************Input Files*************************************//
 	
+	public static String HARFILE_NAME="PerformanceTestHar.har";
+	public static String TEXTFILE_NAME="PerformanceTestHar.txt";
+	public static String EXCELFILE_NAME="GA_Excel_Execution.xls";
 	
 	//******************************************************************************//
 	public static String AUTH_URL;

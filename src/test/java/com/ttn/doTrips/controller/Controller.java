@@ -28,7 +28,22 @@ public class Controller {
 	public static Reporter reporter;
 	public static String env = System.getProperty("env");
 	public static String ver = System.getProperty("ver");
+	
+	private String inputFile;
 
+	public static String HARFILE_NAME="PerformanceTestHar.har";
+	public static String TEXTFILE_NAME="PerformanceTestHar.txt";
+	public static String EXCELFILE_NAME="GA_Excel_Execution.xls";
+	
+	public void setInputFile(String inputFile) 
+	{
+		this.inputFile = inputFile;
+	}
+
+	
+	
+	
+	
 	@BeforeSuite(alwaysRun = true)
 	public void beforeSuite() {
 		System.out.println("--------------@BeforeSuite--------------");
