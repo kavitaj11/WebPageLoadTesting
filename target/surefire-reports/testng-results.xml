@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48404" started-at="2017-05-06T18:13:01Z" finished-at="2017-05-06T18:13:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48404" started-at="2017-05-06T18:13:01Z" finished-at="2017-05-06T18:13:49Z">
+      <class name="com.ttn.doTrips.test.SampleTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ttn.doTrips.test.SampleTest@5a61f5df]" name="beforeSuite" is-config="true" duration-ms="180" started-at="2017-05-06T23:43:01Z" finished-at="2017-05-06T23:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ttn.doTrips.test.SampleTest@5a61f5df]" name="setup" is-config="true" duration-ms="5045" started-at="2017-05-06T23:43:01Z" finished-at="2017-05-06T23:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="teknosa_test1()[pri:0, instance:com.ttn.doTrips.test.SampleTest@5a61f5df]" name="teknosa_test1" duration-ms="23493" started-at="2017-05-06T23:43:06Z" finished-at="2017-05-06T23:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teknosa_test1 -->
+        <test-method status="PASS" signature="teknosa_test2()[pri:0, instance:com.ttn.doTrips.test.SampleTest@5a61f5df]" name="teknosa_test2" duration-ms="17464" started-at="2017-05-06T23:43:29Z" finished-at="2017-05-06T23:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teknosa_test2 -->
+        <test-method status="PASS" signature="shutdown()[pri:0, instance:com.ttn.doTrips.test.SampleTest@5a61f5df]" name="shutdown" is-config="true" duration-ms="2390" started-at="2017-05-06T23:43:47Z" finished-at="2017-05-06T23:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- com.ttn.doTrips.test.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
